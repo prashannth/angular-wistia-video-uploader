@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "npm install && node index.js",
-    "postinstall": "bower install"
+    "postinstall": "bash ./post_install.sh"
   },
   "dependencies": {
     "express": "^4.13.3",
-    "bower": "0.6.x"
+    "bower": "*"
   },
   "engines": {
     "node": "4.0.0"
