@@ -1,0 +1,28 @@
+{
+  "name": "angular-wistia-video-uploader",
+  "version": "1.0.0",
+  "description": "Angular app which uploads video to Wistia",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && node index.js",
+    "postinstall": "bower install"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "bower": "0.6.x"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prashannth/angular-wistia-video-uploader"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "angular",
+    "wistia"
+  ],
+  "author": "Prashannth Vijayakumar"
+}

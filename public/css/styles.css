@@ -1,0 +1,73 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important; }
+
+.container {
+  margin: 0 auto;
+  padding: 12px;
+  display: block; }
+
+.md-button {
+  margin: 0;
+  margin-bottom: 10px; }
+
+.abortupload-button,
+.fileinput-button {
+  display: inline-flex;
+  margin: 10px 0 15px; }
+
+.abortupload-button:hover {
+  cursor: pointer; }
+
+.percentage-value {
+  position: relative;
+  display: none;
+  margin-top: 2px;
+  left: 0%;
+  -webkit-transition: left .2s ease-in-out;
+  transition: left .2s ease-in-out; }
+  .percentage-value.show {
+    display: inline-block; }
+
+.file-info {
+  display: none;
+  margin-top: 10px; }
+  .file-info.show {
+    display: block; }
+
+.processing {
+  display: block;
+  margin-top: 10px; }
+
+#wistia-container {
+  margin-top: 10px; }
+
+.wistia_embed {
+  margin: auto;
+  margin-top: 10px; }
+
+.createdby {
+  font-size: 14px;
+  font-style: italic; }
+  .createdby a {
+    text-decoration: underline; }
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 80%; } }
+
+#toolbar {
+  background-color: #428bca;
+}
+
+.fileinput-button,
+.abortupload-button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #428bca;
+}
+
+.fileinput-button:hover,
+.abortupload-button:hover {
+  background-color: #428bca;
+  color: #ffffff;
+}
